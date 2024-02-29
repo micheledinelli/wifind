@@ -1,0 +1,5 @@
+access_points==0.4.73
+numpy==1.26.4
+pandas==1.4.3
+scikit_learn==1.0.2
+setuptools==69.1.0

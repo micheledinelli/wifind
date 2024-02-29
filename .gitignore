@@ -1,0 +1,7 @@
+# Python distribution files
+*.pyc
+*.pyo
+__pycache__/
+dist/
+build/
+*.egg-info/

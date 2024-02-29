@@ -1,0 +1,277 @@
+[
+  {
+    "cucina": {
+      "-Wind3 HUB-EEFC21": 50,
+      "-IBZ Studenti": 16,
+      "-Vodafone5GHz-A87551308": 18,
+      "-SKY1D90F": 46,
+      "-IBZ Docenti": 26,
+      "-Repeater": 34,
+      "-Vodafone-A87551308": 36,
+      "-iliadbox-6119A6_5Ghz": 36,
+      "-Vodafone-A58823512": 56,
+      "-Vodafone-WiFi": 54,
+      "-Marchello": 46,
+      "-Wind3 HUB - 1A3EF6": 58,
+      "-iliadbox-6119A6_2.4Ghz": 62,
+      "-central perk": 120
+    }
+  },
+  {
+    "cucina": {
+      "-Wind3 HUB-EEFC21": 54,
+      "-IBZ Studenti": 20,
+      "-IBZ Docenti": 22,
+      "-Vodafone5GHz-A87551308": 18,
+      "-SKY1D90F": 48,
+      "-iliadbox-6119A6_5Ghz": 32,
+      "-Repeater": 34,
+      "-Vodafone-A87551308": 36,
+      "-Vodafone-A58823512": 56,
+      "-Vodafone-WiFi": 56,
+      "-Marchello": 46,
+      "-Wind3 HUB - 1A3EF6": 52,
+      "-iliadbox-6119A6_2.4Ghz": 60,
+      "-central perk": 120
+    }
+  },
+  {
+    "cucina": {
+      "-Wind3 HUB-EEFC21": 54,
+      "-IBZ Studenti": 20,
+      "-IBZ Docenti": 22,
+      "-Vodafone5GHz-A87551308": 18,
+      "-IBZ Segreteria": 18,
+      "-SKY1D90F": 46,
+      "-WOW FI - FASTWEB": 30,
+      "-Marchello": 46,
+      "-Repeater": 30,
+      "-iliadbox-6119A6_5Ghz": 32,
+      "-Wind3 HUB-39F023": 34,
+      "-Vodafone-A87551308": 36,
+      "-Vodafone-WiFi": 54,
+      "-Vodafone-A58823512": 56,
+      "-FASTWEB-B46191": 42,
+      "-Wind3 HUB - 1A3EF6": 54,
+      "-iliadbox-6119A6_2.4Ghz": 62,
+      "-central perk": 120
+    }
+  },
+  {
+    "camera-pino": {
+      "-Vodafone-A58823512": 44,
+      "-Vodafone-WiFi": 16,
+      "-Vodafone5GHz-A87551308": 20,
+      "-IBZ Segreteria": 22,
+      "-iliadbox-6119A6_5Ghz": 22,
+      "-IBZ Studenti": 28,
+      "-Repeater": 28,
+      "-Marchello": 44,
+      "-Vodafone-A87551308": 38,
+      "-Wind3 HUB-EEFC21": 64,
+      "-iliadbox-6119A6_2.4Ghz": 44,
+      "-SKY1D90F": 56,
+      "-Wind3 HUB - 1A3EF6": 72,
+      "-central perk": 92
+    }
+  },
+  {
+    "camera-pino": {
+      "-Marchello": 10,
+      "-Vodafone-A58823512": 44,
+      "-Vodafone-WiFi": 42,
+      "-Vodafone5GHz-A87551308": 20,
+      "-FASTWEB-B46191": 20,
+      "-iliadbox-6119A6_5Ghz": 22,
+      "-Vodafone-A87551308": 22,
+      "-wlan-ospiti": 24,
+      "-IBZ Studenti": 28,
+      "-IBZ Segreteria": 26,
+      "-Wind3 HUB-EEFC21": 64,
+      "-iliadbox-6119A6_2.4Ghz": 44,
+      "-Repeater": 52,
+      "-SKY1D90F": 58,
+      "-Wind3 HUB - 1A3EF6": 70,
+      "-central perk": 92
+    }
+  },
+  {
+    "camera-pino": {
+      "-Marchello": 20,
+      "-Vodafone-A58823512": 40,
+      "-Vodafone-WiFi": 42,
+      "-wlan-ospiti": 16,
+      "-IBZ Segreteria": 26,
+      "-FASTWEB-B46191": 20,
+      "-iliadbox-6119A6_5Ghz": 22,
+      "-Vodafone-A87551308": 22,
+      "-IBZ Studenti": 28,
+      "-Wind3 HUB-EEFC21": 68,
+      "-iliadbox-6119A6_2.4Ghz": 48,
+      "-Repeater": 52,
+      "-SKY1D90F": 60,
+      "-Wind3 HUB - 1A3EF6": 68,
+      "-central perk": 100
+    }
+  },
+  {
+    "camera-pino": {
+      "-Vodafone-A58823512": 44,
+      "-Vodafone-WiFi": 42,
+      "-IBZ Docenti": 28,
+      "-iliadbox-6119A6_5Ghz": 16,
+      "-IBZ Segreteria": 24,
+      "-Marchello": 24,
+      "-IBZ Studenti": 26,
+      "-Repeater": 42,
+      "-Wind3 HUB-EEFC21": 58,
+      "-iliadbox-6119A6_2.4Ghz": 54,
+      "-Wind3 HUB - 1A3EF6": 70,
+      "-central perk": 92,
+      "-SKY1D90F": 64
+    }
+  },
+  {
+    "camera-pino": {
+      "-Vodafone-A58823512": 40,
+      "-Vodafone-WiFi": 38,
+      "-IBZ Segreteria": 26,
+      "-Marchello": 26,
+      "-Vodafone-A87551308": 30,
+      "-IBZ Studenti": 30,
+      "-Wind3 HUB-EEFC21": 58,
+      "-SKY1D90F": 60,
+      "-Repeater": 60,
+      "-Wind3 HUB - 1A3EF6": 72,
+      "-central perk": 88
+    }
+  },
+  {
+    "camera-pino": {
+      "-B628_0A03": 16,
+      "-Vodafone-A58823512": 40,
+      "-Vodafone-WiFi": 38,
+      "-Wind3 HUB-39F023": 18,
+      "-iliadbox-6119A6_5Ghz": 22,
+      "-IBZ Segreteria": 26,
+      "-Marchello": 26,
+      "-IBZ Studenti": 30,
+      "-Vodafone-A87551308": 32,
+      "-Wind3 HUB-EEFC21": 56,
+      "-iliadbox-6119A6_2.4Ghz": 40,
+      "-Repeater": 48,
+      "-Wind3 HUB - 1A3EF6": 72,
+      "-central perk": 90,
+      "-SKY1D90F": 66
+    }
+  },
+  {
+    "cucina": {
+      "-Vodafone5GHz-A87551308": 12,
+      "-TIM-31632150": 14,
+      "-Wind3 HUB-EEFC21": 40,
+      "-FASTWEB-B46191": 26,
+      "-Repeater": 26,
+      "-Wind3 HUB-39F023": 28,
+      "-Marchello": 42,
+      "-Vodafone-A87551308": 32,
+      "-IBZ Studenti": 34,
+      "-WOW FI - FASTWEB": 34,
+      "-Vodafone-A58823512": 70,
+      "-Vodafone-WiFi": 68,
+      "-SKY1D90F": 40,
+      "-iliadbox-6119A6_5Ghz": 40,
+      "-Wind3 HUB - 1A3EF6": 70,
+      "-iliadbox-6119A6_2.4Ghz": 68,
+      "-central perk": 126
+    }
+  },
+  {
+    "cucina": {
+      "-IBZ Docenti": 24,
+      "-TIM-31632150": 12,
+      "-Wind3 HUB-EEFC21": 40,
+      "-SKY1D90F": 32,
+      "-IBZ Segreteria": 26,
+      "-IBZ Studenti": 26,
+      "-Wind3 HUB-39F023": 26,
+      "-Marchello": 42,
+      "-WOW FI - FASTWEB": 28,
+      "-FASTWEB-B46191": 28,
+      "-Repeater": 28,
+      "-Vodafone-A58823512": 68,
+      "-Vodafone-WiFi": 66,
+      "-Vodafone-A87551308": 36,
+      "-iliadbox-6119A6_5Ghz": 40,
+      "-Wind3 HUB - 1A3EF6": 70,
+      "-iliadbox-6119A6_2.4Ghz": 64,
+      "-central perk": 126
+    }
+  },
+  {
+    "cucina": {
+      "-IBZ Docenti": 24,
+      "-TIM-31632150": 12,
+      "-HP-Print-1F-ENVY 5530 series": 16,
+      "-Wind3 HUB-EEFC21": 38,
+      "-SKY1D90F": 32,
+      "-IBZ Studenti": 26,
+      "-IBZ Segreteria": 26,
+      "-WOW FI - FASTWEB": 28,
+      "-FASTWEB-B46191": 28,
+      "-Repeater": 28,
+      "-Marchello": 42,
+      "-Wind3 HUB-39F023": 30,
+      "-Vodafone-WiFi": 66,
+      "-Vodafone-A87551308": 38,
+      "-Vodafone-A58823512": 66,
+      "-iliadbox-6119A6_5Ghz": 40,
+      "-Wind3 HUB - 1A3EF6": 70,
+      "-iliadbox-6119A6_2.4Ghz": 64,
+      "-central perk": 124
+    }
+  },
+  {
+    "camera-mic": {
+      "-IBZ Studenti": 10,
+      "-Vodafone-A56664184": 14,
+      "-Vodafone-WiFi": 14,
+      "-Vodafone-A52587586": 14,
+      "-Wind3 HUB - 1A3EF6": 24,
+      "-FASTWEB-B46191": 42,
+      "-IBZ Docenti": 28,
+      "-Wind3 HUB-EEFC21": 30,
+      "-WOW FI - FASTWEB": 42,
+      "-Vodafone-A87551308": 44,
+      "-HP-Print-1F-ENVY 5530 series": 48,
+      "-Marchello": 64,
+      "-central perk": 70,
+      "-iliadbox-6119A6_2.4Ghz": 80,
+      "-iliadbox-6119A6_5Ghz": 70,
+      "-SKY1D90F": 82
+    }
+  },
+  {
+    "camera-mic": {
+      "-IBZ Studenti": 10,
+      "-Vodafone-A56664184": 14,
+      "-Vodafone-WiFi": 14,
+      "-Vodafone-A52587586": 14,
+      "-DIRECT-E0-HP Laser 150nw": 20,
+      "-IBZ Segreteria": 22,
+      "-Wind3 HUB - 1A3EF6": 24,
+      "-Wind3 HUB-39F023": 24,
+      "-IBZ Docenti": 28,
+      "-Wind3 HUB-EEFC21": 28,
+      "-FASTWEB-B46191": 48,
+      "-HP-Print-1F-ENVY 5530 series": 42,
+      "-Vodafone-A87551308": 44,
+      "-WOW FI - FASTWEB": 46,
+      "-Marchello": 62,
+      "-central perk": 70,
+      "-iliadbox-6119A6_2.4Ghz": 86,
+      "-iliadbox-6119A6_5Ghz": 74,
+      "-SKY1D90F": 84
+    }
+  }
+]
