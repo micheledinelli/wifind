@@ -12,11 +12,12 @@ def scan(room=None):
     wifi_scanner = get_scanner()
     aps = wifi_scanner.get_access_points()
     
-    samples = {}
+    sample = {}
     for ap in aps:
         id = ap.get("bssid") + "-" + ap.get("ssid")    
         quality = ap.get("quality")
-        samples[id] = quality 
+        sample[id] = quality
+        if room:
+            sample["room"] = room  
 
-    results = {room: samples}
-    return results
+    return sample

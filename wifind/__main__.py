@@ -9,11 +9,13 @@ def main():
         parser = argparse.ArgumentParser(description="Scan Wi-Fi networks.")
         subparsers = parser.add_subparsers(title="subcommands", dest="subcommand")
 
-        # Subcommand to scan Wi-Fi networks
-        scan_parser = subparsers.add_parser("learn", help="Learn current position")
-        scan_parser.add_argument("-r", "--room", help="Name of the room to sample", required=True)
+        learn_parser = subparsers.add_parser("learn", help="Learn current position")
+        learn_parser.add_argument("-r", "--room", help="Name of the room to sample", required=True)
 
-        # Subcommand to clean the data file
+        # depp_learn_parser = subparsers.add_parser("deep-learn", help="Learn current position")
+        # depp_learn_parser.add_argument("-n", "--num", help="Number of samples to collect", required=True)
+        # depp_learn_parser.add_argument("-r", "--room", help="Name of the room to sample", required=True)
+
         clean_parser = subparsers.add_parser("clear", help="Clear the data file")
         predict_parser = subparsers.add_parser("predict", help="Predict the room")
         

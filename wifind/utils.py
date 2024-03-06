@@ -1,12 +1,13 @@
 import os
 import pickle
 import json
+import pandas as pd
 
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.pipeline import make_pipeline
 
-DATA_PATH = "data.json"
+DATA_PATH = "data.csv"
 MODEL_PATH = "model.pkl"
 
 def get_data():
@@ -14,44 +15,33 @@ def get_data():
     This function is used to load the data from the file system.
 
     Returns:
-        list: A list object containing the loaded data.
+        Dataframe: A dataframe.
     """
-    try:
-        return list(json.load(open(DATA_PATH)))
-    except (FileNotFoundError, json.JSONDecodeError):
-        raise Exception("No data found")
-    
-def get_train_data():
-    """
-    This function is used to load the data from the file system.
-
-    Returns:
-        tuple: A tuple object containing the loaded data.
-    """
-    
-    data = get_data()
-
-    # Extract 'y' and 'x' for each key
-    X, y = [], []
-    for d in data:
-        for key, value in d.items():
-            X.append(value)
-            y.append(key)
-    return X, y
+    if os.path.exists(DATA_PATH):
+        return pd.read_csv(DATA_PATH, index_col=0)
+    else:
+        return pd.DataFrame()
 
 def save_data(online_data):
     """
     This function is used to save the data to the file system.
     """
-    try:
-        with open(DATA_PATH, "r") as f:
-            data = json.load(f)
-    except (FileNotFoundError, json.JSONDecodeError):
-        data = []
-    data.append(online_data)
-    with open(DATA_PATH, "w") as f:
-        json.dump(data, f)
+    # check file exists
+    data = get_data()
     
+    if data.empty:
+        df = pd.DataFrame(online_data, index=[0])
+
+        # Nan becomes 0
+        df.fillna(0, inplace=True)
+        df.to_csv(DATA_PATH)
+    else:
+        df = pd.concat([data, pd.DataFrame([online_data])], ignore_index=True)
+        
+        # Nan becomes 0
+        df.fillna(0, inplace=True)
+        df.to_csv(DATA_PATH)
+
 def get_model():
     """
     This function is used to load the model from the file system.
