@@ -1,6 +1,7 @@
 import os
 import pickle
 import pandas as pd
+import sys
 from wifind.errors import NoDataException
 
 from sklearn.ensemble import RandomForestClassifier
@@ -19,7 +20,7 @@ def get_data():
     if os.path.exists(DATA_PATH):
         return pd.read_csv(DATA_PATH, index_col=0)
     else:
-        NoDataException().raise_exception()
+        raise NoDataException()
 
 def save_data(online_data):
     """
@@ -65,7 +66,12 @@ def preprocess_sample(sample: dict):
     """
 
     # Load the data
-    data = get_data()
+    data = None
+    try:
+        data = get_data()
+    except NoDataException as e:
+        print(e)
+        sys.exit(1)
 
     # Some APs may not be in the model, so we need to fill in the missing values
     X = pd.DataFrame([sample])
@@ -87,3 +93,6 @@ def clear():
     """
     if os.path.exists(DATA_PATH):
         os.remove(DATA_PATH)
+
+    if os.path.exists(MODEL_PATH):
+        os.remove(MODEL_PATH)
