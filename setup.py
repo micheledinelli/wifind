@@ -1,15 +1,18 @@
 from setuptools import find_packages
 from setuptools import setup
 
+with open('README.md', 'r', encoding='utf-8') as f:
+    long_description = f.read()
+
 MAJOR_VERSION = '0'
 MINOR_VERSION = '0'
-MICRO_VERSION = '7'
+MICRO_VERSION = '9'
 VERSION = "{}.{}.{}".format(MAJOR_VERSION, MINOR_VERSION, MICRO_VERSION)
 
 setup(name='wifind',
       version=VERSION,
       description="Wi-Fi indoor positioning system",
-      long_description="""# wifind""",
+      long_description=long_description,
       long_description_content_type='text/markdown',
       author='Dinelli Michele',
       url='https://github.com/micheledinelli/wifind',
