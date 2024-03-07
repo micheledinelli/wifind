@@ -1,7 +1,7 @@
 import argparse
 from wifind.learn import learn
 from wifind.utils import clear
-from wifind.predict import predict
+from wifind.predict import predict, predict_proba
 from wifind.rooms import rooms
 
 def main():
@@ -18,6 +18,7 @@ def main():
 
         clean_parser = subparsers.add_parser("clear", help="Clear the data file")
         predict_parser = subparsers.add_parser("predict", help="Predict the room")
+        predict_parser.add_argument("-p", "--proba", help="Predict the probability", action="store_true", required=False)
         
         room_parser = subparsers.add_parser("rooms", help="List the rooms in the data file")
         room_parser.add_argument("-s", "--samples", help="List the number of sample", required=False)
@@ -29,7 +30,11 @@ def main():
         elif args.subcommand == "clear":
             clear()
         elif args.subcommand == "predict":
-            predict()
+
+            if args.proba:
+                predict_proba()
+            else:
+                predict()    
         elif args.subcommand == "rooms":
             rooms(args.samples)
     except (KeyboardInterrupt, SystemExit):
