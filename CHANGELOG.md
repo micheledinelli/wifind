@@ -1,5 +1,5 @@
 # CHANGELOG
 
-## 0.0.9
+## 0.1.0
 
 First version of the package
