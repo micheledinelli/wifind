@@ -12,10 +12,6 @@ def main():
         learn_parser = subparsers.add_parser("learn", help="Learn current position")
         learn_parser.add_argument("-r", "--room", help="Name of the room to sample", required=True)
 
-        # depp_learn_parser = subparsers.add_parser("deep-learn", help="Learn current position")
-        # depp_learn_parser.add_argument("-n", "--num", help="Number of samples to collect", required=True)
-        # depp_learn_parser.add_argument("-r", "--room", help="Name of the room to sample", required=True)
-
         clean_parser = subparsers.add_parser("clear", help="Clear the data file")
         predict_parser = subparsers.add_parser("predict", help="Predict the room")
         predict_parser.add_argument("-p", "--proba", help="Predict the probability", action="store_true", required=False)
