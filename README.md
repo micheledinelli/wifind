@@ -4,10 +4,6 @@
 
 `wifind` is a cli tool that performs wifi fingerprinting and detect your position based on access points around you.
 
-## Results
-
-`wifind` is in early stage development. I am trying to find a suitable model for the classification task considering only a few samples.
-
 ## Installation
 
 ```sh
@@ -27,6 +23,12 @@ wifind rooms
 # predicts current location
 wifind predict
 # kitchen
+
+wifind --watch
+# 2024-06-08 12:31:24 - kitchen
+# 2024-06-08 12:31:27 - bedroom
+# 2024-06-08 12:31:31 - bedroom
+# 2024-06-08 12:31:35 - bedroom
 
 wifind predict -p
 # {'kitchen': 0.68, 'bedroom': 0.32}
