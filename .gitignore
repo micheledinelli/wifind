@@ -6,6 +6,6 @@ dist/
 build/
 *.egg-info/
 
-# Business logic files
+# Data and model files
 data.csv
 model.pkl
