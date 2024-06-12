@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 0.2.1
+
+- Fix bug caused by learn function calling save data without data already saved
+  ([#0891467](https://github.com/micheledinelli/wifind/commit/08914678eae4b81f3f3fd911a6731ac9d53a7bc4), @micheledinelli)
+
 ## 0.2.0
 
 - Code cleanup and added `--watch` 👀 command
