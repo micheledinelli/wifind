@@ -23,7 +23,7 @@ def save_data(online_data):
         df = pd.concat([data, pd.DataFrame([online_data])], ignore_index=True)
         df.fillna(0, inplace=True)
         df.to_csv(DATA_PATH)
-    except NoDataException:
+    except Exception:
         df = pd.DataFrame(online_data, index=[0])
         df.fillna(0, inplace=True)
         df.to_csv(DATA_PATH)
