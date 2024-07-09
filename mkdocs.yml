@@ -1,4 +1,46 @@
 site_name: wifind
 site_url: https://micheledinelli.github.io/wifind
+site_author: Michele Dinelli
+site_description: Technical documentation of wifind
+repo_name: micheledinelli/wifind
+repo_url: https://github.com/micheledinelli/wifind
 theme:
   name: material
+  language: en
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Installation: installation.md
+    - Usage: usage.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/micheledinelli/
+    - icon: fontawesome/brands/python
+      link: https://pypi.org/project/wifind/
