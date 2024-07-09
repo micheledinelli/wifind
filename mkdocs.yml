@@ -1,0 +1,4 @@
+site_name: wifind
+site_url: https://micheledinelli.github.io/wifind
+theme:
+  name: material
