@@ -4,8 +4,10 @@ site_author: Michele Dinelli
 site_description: Technical documentation of wifind
 repo_name: micheledinelli/wifind
 repo_url: https://github.com/micheledinelli/wifind
+copyright: Copyright &copy; 2024 Michele Dinelli
 theme:
   name: material
+  locale: en
   language: en
   font:
     text: Roboto
@@ -33,10 +35,14 @@ theme:
     - navigation.sections
 
 nav:
-  - Home: index.md
+  # - Home: index.md
   - Getting Started:
     - Installation: installation.md
+  - Usage: 
     - Usage: usage.md
+  - API Reference:
+    - wifind: api/wifind.md
+    - wifind.utils: api/wifind.utils.md
 
 extra:
   social:
@@ -44,3 +50,19 @@ extra:
       link: https://github.com/micheledinelli/
     - icon: fontawesome/brands/python
       link: https://pypi.org/project/wifind/
+  generator: false
+
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - callouts
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+

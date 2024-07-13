@@ -1,5 +1,7 @@
 # Installation
 
-Using pip
+`Wifind` is published on [PyPi](https://pypi.org/project/wifind/) and can be installed using pip with the following command:
 
-`pip install wifind`
+```sh
+pip install wifind
+```
