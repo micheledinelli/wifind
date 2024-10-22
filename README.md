@@ -1,18 +1,20 @@
 # wifind
 
-[![Publish to PyPI](https://github.com/micheledinelli/wifind/actions/workflows/publish-to-pypi.yaml/badge.svg)](https://github.com/micheledinelli/wifind/actions/workflows/publish-to-pypi.yaml) [![pypi version](https://img.shields.io/pypi/v/wifind)](https://pypi.org/project/wifind/) [![pypi downloads](https://img.shields.io/pypi/dw/wifind)](https://pypi.org/project/wifind/)
+![python](https://img.shields.io/badge/Python-3776AB.svg?style=plain&logo=Python&logoColor=white)
+![sklearn](https://img.shields.io/badge/scikitlearn-F7931E.svg?style=flat&logo=scikit-learn&logoColor=white)
+[![pypi downloads](https://img.shields.io/pypi/dw/wifind)](https://pypi.org/project/wifind/)
 
 `wifind` is a cli tool that performs wifi fingerprinting and detect your position based on access points around you.
 
 ## Installation
 
-```sh
+```console
 pip install wifind
 ```
 
 ## Usage
 
-```sh
+```console
 # learn current location labelling it as kitchen
 wifind learn -r kitchen
 
