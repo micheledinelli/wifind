@@ -6,6 +6,6 @@ dist/
 build/
 *.egg-info/
 
-# Data and model files
+# Local data and model files
 data.csv
 model.pkl
