@@ -39,6 +39,8 @@ wifind predict -p
 wifind clear
 ```
 
+![screenshot](screenshot.png)
+
 ## Acknowledgments
 
 Inspired by amazing work of [`whereami`](https://github.com/kootenpv/whereami)
